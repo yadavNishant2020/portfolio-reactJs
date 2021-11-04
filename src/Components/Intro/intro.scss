@@ -1,4 +1,24 @@
 .intro {
   background-color: #ffdee9;
   background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  display: flex;
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+    .img {
+      width: 700;
+      height: 800px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+
+      img {
+        height: 95%;
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+  }
 }

@@ -6,6 +6,7 @@ import Portfolio from "./Components/portfolio/portfolio";
 import Contact from "./Components/Contact/contact";
 import "./app.scss";
 import { useState } from "react";
+import Sidebar from "./Components/Sidebar/sidebar";
 
 function App() {
   const [menuopen, setMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
         {" "}
         <Navbar menuopen={menuopen} setMenuOpen={setMenuOpen} />
       </div>
+      <Sidebar menuopen={menuopen} setMenuOpen={setMenuOpen} />
 
       <div className="sections">
         <Intro />

@@ -4,11 +4,11 @@ import MailIcon from "@material-ui/icons/Mail";
 
 export default function navbar({ menuopen, setMenuOpen }) {
   return (
-    <div className={"navbar" + (menuopen && "active")}>
+    <div className={"navbar" + (menuopen && "")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            nishant.
+            NiShant
           </a>
           <div className="itemContainer">
             <PersonIcon className="icon" />
