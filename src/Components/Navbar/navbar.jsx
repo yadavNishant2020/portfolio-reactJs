@@ -8,14 +8,14 @@ export default function navbar({ menuopen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Nishant_Y
+            nishant.
           </a>
           <div className="itemContainer">
             <PersonIcon className="icon" />
-            <span>+91 636 694 7041</span>
+            <span>+91 6386 694 7041</span>
           </div>
           <div className="itemContainer">
-            <MailIcon className="mail" />
+            <MailIcon className="icon" />
             <span>yadavnishant995@gmail.com</span>
           </div>
         </div>
