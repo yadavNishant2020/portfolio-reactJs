@@ -1,3 +1,20 @@
 .portfolio {
-  background-color: chocolate;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 50px;
+  }
+  ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  li {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 0.7;
+  }
 }

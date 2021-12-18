@@ -1,3 +1,50 @@
 .about {
-  background-color: aqua;
+  background-color: white;
+  display: flex;
+  .left {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #fff;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+    }
+  }
+  .right {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 0;
+    margin-right: 20px;
+    h1 {
+      font-family: "Karla", sans-serif;
+      font-size: 65px;
+      text-decoration: underline;
+    }
+    p {
+      text-align: left;
+      line-height: 35px;
+      font-size: 25px;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      font-family: "Birthstone Bounce", cursive;
+      font-size: 40px;
+      margin-bottom: 30px;
+      display: flex;
+
+      color: #e1c1ce;
+    }
+  }
 }

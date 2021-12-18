@@ -9,15 +9,15 @@ import { useState } from "react";
 import Sidebar from "./Components/Sidebar/sidebar";
 
 function App() {
-  const [menuopen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
       {/* //Component Calling */}
       <div className="navbar">
         {" "}
-        <Navbar menuopen={menuopen} setMenuOpen={setMenuOpen} />
+        <Navbar menuopen={menuOpen} setMenuOpen={setMenuOpen} />
       </div>
-      <Sidebar menuopen={menuopen} setMenuOpen={setMenuOpen} />
+      <Sidebar menuopen={menuOpen} setMenuOpen={setMenuOpen} />
 
       <div className="sections">
         <Intro />

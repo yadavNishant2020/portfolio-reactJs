@@ -1,11 +1,10 @@
 import "./sidebar.scss";
 
-export default function menu(menuopen, setMenuOpen) {
+export default function menu({ menuOpen, setMenuOpen }) {
   return (
-    // {"navbar" + (menuopen && "active")}
-    <div className="menu">
+    //
+    <div className={"menu " + (menuOpen && "active")}>
       <ul>
-        {/* onClick={() => setMenuOpen(false)} */}
         <li>
           <a href="#intro">Intro</a>
         </li>
