@@ -16,13 +16,13 @@ export default function Intro() {
   }, []);
   return (
     <div className="intro" id="intro">
+      <div className="txt">
+        <h1 className="first">IMAGINE</h1>
+        <h1 className="second">
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DEVELOPE
+        </h1>
+      </div>
       <div className="left">
-        <div className="txt">
-          <h1 className="first">IMAGINE</h1>
-          <h1 className="second">
-            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DEVELOPE
-          </h1>
-        </div>
         <div className="img">
           <img src="images/boyy.gif" alt="coding_boy" />
         </div>
