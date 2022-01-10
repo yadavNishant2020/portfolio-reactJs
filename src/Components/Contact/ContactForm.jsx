@@ -5,31 +5,31 @@ const FormStyle = styled.form`
   width: 100%;
   .form-group {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   label {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   input,
   textarea {
     width: 100%;
     font-size: 2rem;
-    padding: 1.2rem;
-    color: var(--gray-1);
-    background-color: var(--deep-dark);
+
+    color: grey;
+    background-color: white;
     outline: none;
     border: none;
     border-radius: 8px;
     margin-top: 1rem;
   }
   textarea {
-    min-height: 250px;
+    min-height: 100px;
     resize: vertical;
   }
   button[type="submit"] {
-    background-color: var(--gray-1);
+    background-color: lightGrey;
     color: var(--black);
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: inline-block;
     outline: none;
     border: none;

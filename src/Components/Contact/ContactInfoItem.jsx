@@ -4,24 +4,24 @@ import styled from "styled-components";
 import PText from "./PText";
 
 const ItemStyles = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   background-color: var(--deep-dark);
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   .icon {
     color: var(--white);
     background-color: var(--gray-2);
-    padding: 1.3rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
   }
   svg {
-    width: 3.5rem;
+    width: 3rem;
   }
 `;
 

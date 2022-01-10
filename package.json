@@ -2,6 +2,9 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -13,9 +16,12 @@
     "react-dom": "^17.0.2",
     "react-icon": "^1.0.0",
     "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
     "sass": "^1.43.4",
     "styled-component": "^2.8.0",
+    "styled-components": "^5.3.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

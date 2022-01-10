@@ -14,7 +14,10 @@ function about() {
           Development using JavaScript , ReactJs and most obvious HTML & CSS. As
           i am in college i also do coding in C++ to solve some Ds Algo
           problems.When i am free i usually hit gym to add some muscles and
-          maintain my fitness.
+          maintain my fitness.Designing and Coding have been my passion since
+          the days I started working with computers but I found myself into web
+          design/development since 2017. I enjoy creating beautifully designed,
+          intuitive and functional websites.
         </p>
 
         <h2>-Nishant Singh Yadav</h2>
