@@ -43,7 +43,7 @@ function portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            Google Earth Animation
+            Google Earth
           </a>
         </div>
         <div className="items">

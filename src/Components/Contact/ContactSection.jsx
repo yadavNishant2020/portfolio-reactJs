@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const ContactSectionStyle = styled.div`
-  background-color: #f6e1eb;
+  background-color: #d2d2d2;
   html {
     overflow: scroll;
     overflow-x: hidden;
@@ -21,16 +21,13 @@ const ContactSectionStyle = styled.div`
     background: #ff0000;
   }
   scroll: smooth;
-.container{
-  display:flex;
-  align-content:center;
-  justify-content:center:
-}
+  .sc-eCImPb {
+  }
   .contactSection__wrapper {
     display: flex;
     gap: 5rem;
     margin-top: 2rem;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: relative;
     margin-left: 2rem;
   }

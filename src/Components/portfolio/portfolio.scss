@@ -1,18 +1,25 @@
+@import "../../global.scss";
 .portfolio {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("pink.jpg");
+  background-image: url(../Background/skillback.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
   p {
     font-size: 45px;
-    letter-spacing: 3px;
-    font-family: "Montserrat Bold";
+    text-decoration: underline;
+
+    font-family: "Karla", sans-serif;
+    font-size: 55px;
     overflow: hidden;
     padding-top: 1%;
+    @include mobile {
+      font-size: 25px;
+      padding-top: 10%;
+    }
   }
 }
 
@@ -24,6 +31,9 @@
   justify-content: center;
   flex-wrap: wrap;
   overflow: hidden;
+  @include mobile {
+    padding-top: 10%;
+  }
   .items {
     width: 30%;
     height: 40%;
@@ -38,17 +48,37 @@
     position: relative;
     transition: all 0.5s ease;
     cursor: pointer;
+    @include mobile {
+      width: 150px;
+      height: 180px;
+      background-color: #91b3b8;
+      video {
+        opacity: 0.1;
+        z-index: 0;
+      }
+    }
     a {
       position: absolute;
       font-size: 20px;
       text-decoration: none;
       color: white;
+      @include mobile {
+        font-size: 15px;
+        color: black;
+      }
     }
     video {
       width: 100%;
       height: 100%;
       object-fit: cover;
       z-index: 1;
+      @include mobile {
+        background-color: #91b3b8;
+        video {
+          opacity: 0.15;
+          z-index: 0;
+        }
+      }
     }
     &:hover {
       background-color: #91b3b8;

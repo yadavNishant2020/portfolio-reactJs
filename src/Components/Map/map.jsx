@@ -9,7 +9,7 @@ import {
 
 function map() {
   return (
-    <section className="footerSection" style={{ height: "66%" }}>
+    <section className="footerSection" style={{ height: "60%" }}>
       <div className="map">
         <div className="location">
           <p className="heading">Here is me</p>

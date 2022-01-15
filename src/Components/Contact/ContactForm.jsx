@@ -27,8 +27,8 @@ const FormStyle = styled.form`
     resize: vertical;
   }
   button[type="submit"] {
-    background-color: lightGrey;
-    color: var(--black);
+    background-color: black;
+    color: white;
     font-size: 1.5rem;
     display: inline-block;
     outline: none;
