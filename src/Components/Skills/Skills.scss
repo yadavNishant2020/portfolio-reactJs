@@ -14,12 +14,13 @@
   overflow: visible;
 
   h1 {
-    font-family: "Karla", sans-serif;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
     font-size: 350%;
     text-decoration: underline;
     @include mobile {
       font-size: 50px;
-      height: 10%;
+      height: 15%;
     }
   }
   p {
@@ -30,6 +31,9 @@
   }
   .para {
     margin-top: 4%;
+    @include mobile {
+      margin: 0px 20px;
+    }
   }
   h2 {
     font-family: "Roboto", sans-serif;

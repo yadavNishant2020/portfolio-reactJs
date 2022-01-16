@@ -1,0 +1,92 @@
+@import "../../global.scss";
+
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: #2d4140;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+
+  .wrappers {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .lefts {
+      display: flex;
+      align-items: center;
+
+      .logos {
+        font-size: 40px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #679291;
+        margin-right: 40px;
+      }
+
+      .itemContainers {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+        @include mobile {
+          display: none;
+        }
+
+        .icons {
+          font-size: 18px;
+          margin-right: 5px;
+        }
+
+        .names {
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .rights {
+      .hamburger {
+        width: 32px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+        span {
+          width: 100%;
+          height: 3px;
+          background-color: black;
+          transform-origin: left;
+          transition: all 2s ease;
+        }
+      }
+    }
+  }
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+
+    .hamburger {
+      span {
+        &:first-child {
+          background-color: white;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          background-color: white;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}

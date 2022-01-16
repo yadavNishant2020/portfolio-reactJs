@@ -1,3 +1,4 @@
+@import "../../global.scss";
 .footerSection {
   height: 300px;
 }
@@ -18,22 +19,37 @@
   border-radius: 5%;
   color: white;
   margin-left: 40%;
+  @include mobile {
+    height: 60%;
+    width: 50%;
+    margin-left: 10%;
+  }
 }
 .heading {
   font-family: "Montserrat";
   font-size: 3rem;
   margin: 1rem;
+  @include mobile {
+    font-size: 2rem;
+  }
 }
 .address {
   font-family: "Montserrat";
   font-size: 1rem;
   margin: 1rem;
+  @include mobile {
+    font-size: 1.2rem;
+  }
 }
 .link {
   font-family: "Montserrat";
   font-size: 1.2rem;
   margin: 1rem;
-  color: red;
+  color: rgb(207, 99, 99);
+  @include mobile {
+    font-size: 1.1rem;
+    margin: rem;
+  }
 }
 
 /* Footer */

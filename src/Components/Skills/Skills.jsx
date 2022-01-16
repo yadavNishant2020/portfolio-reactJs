@@ -5,8 +5,8 @@ import SkillCard from "./skillCard";
 
 function Skills() {
   return (
-    <div className="skills">
-      <h1 className="heading">My Skills</h1>
+    <div className="skills" id="skill">
+      <h1 className="heading">MY SKILLS</h1>
       <h2 className="para">
         {" "}
         I have the following Skills in my Coat, which are the latest and in
