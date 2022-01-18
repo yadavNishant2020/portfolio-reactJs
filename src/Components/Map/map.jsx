@@ -43,7 +43,7 @@ function map() {
                 <i>{<FaTwitter />}</i>
               </a>
               <a
-                href="https://www.instagram.com/_notorious_yadav_/"
+                href="https://instagram.com/nsy_codes?utm_medium=copy_link"
                 target="_blank"
                 rel="noreferrer"
               >

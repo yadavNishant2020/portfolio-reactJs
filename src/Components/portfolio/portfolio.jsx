@@ -18,11 +18,7 @@ function portfolio() {
         </div>
         <div className="items">
           <video src="video/chillZone.mp4" autoPlay loop muted></video>
-          <a
-            href="https://tesla-66b35.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://lnkd.in/dHX3zbs" target="_blank" rel="noreferrer">
             Chill Zone Website
           </a>
         </div>
@@ -38,21 +34,13 @@ function portfolio() {
         </div>
         <div className="items">
           <video src="video/googleEarth.mp4" autoPlay loop muted></video>
-          <a
-            href="https://tesla-66b35.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://lnkd.in/dqTihhp" target="_blank" rel="noreferrer">
             Google Earth
           </a>
         </div>
         <div className="items">
           <video src="video/pw.mp4" autoPlay loop muted></video>
-          <a
-            href="https://tesla-66b35.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://lnkd.in/eN_EpR3" target="_blank" rel="noreferrer">
             Portfolio Website
           </a>
         </div>

@@ -41,10 +41,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      z-index: 1;
 
       img {
         height: 95%;
-        z-index: 2;
+        z-index: 1;
         @include mobile {
           height: 50%;
           padding-bottom: 50%;
