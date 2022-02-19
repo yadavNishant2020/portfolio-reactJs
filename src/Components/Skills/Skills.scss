@@ -1,18 +1,17 @@
 @import "../../global.scss";
 .skills {
-  display: flex;
-  flex: 0.5;
   padding-right: 5%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  background: url("../Background/5570863.jpg");
   margin-right: 20px;
-  background-image: url(../Background/skillback.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: visible;
-
+  overflow: hidden;
+  .skiil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   h1 {
     font-family: "Roboto", sans-serif;
     text-decoration: underline;
@@ -26,8 +25,12 @@
   p {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    margin-right: 3rem;
-    font-size: 17px;
+    margin-right: 2.5rem;
+    font-size: 27px;
+    font-weight: 600;
+    @include mobile {
+      font-size: 17px;
+    }
   }
   .para {
     margin-top: 4%;
@@ -36,22 +39,28 @@
     }
   }
   h2 {
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
     text-align: center;
     margin-right: 2rem;
     font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 300;
+
     @include mobile {
       font-size: 15px;
       height: 20%;
       margin-right: 1rem;
+      letter-spacing: 1px;
+      line-height: 25px;
     }
   }
   img {
-    width: 80px;
+    width: 200px;
     margin-top: 20px;
     margin-bottom: 15px;
-    margin-right: 2rem;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 2.5rem;
+    overflow: hidden;
     @include mobile {
       width: 100px;
     }
@@ -63,6 +72,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 80px 30%;
+    width: 80%;
 
     @include mobile {
       width: 85%;

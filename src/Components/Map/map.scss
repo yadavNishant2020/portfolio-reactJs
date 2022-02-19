@@ -1,6 +1,7 @@
 @import "../../global.scss";
 .footerSection {
   height: 300px;
+  overflow: hidden;
 }
 .map {
   height: 40vh;
@@ -15,7 +16,7 @@
 .location {
   background-color: #516b6b;
   height: 50%;
-  width: 18%;
+  width: auto;
   border-radius: 5%;
   color: white;
   margin-left: 40%;
