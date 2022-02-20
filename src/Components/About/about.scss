@@ -29,7 +29,7 @@
   .right {
     display: flex;
     flex: 0.5;
-    padding-right: 5%;
+    padding: 0 5%;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
@@ -73,6 +73,26 @@
         font-size: 20px;
         margin-bottom: 0px;
         height: 20%;
+      }
+    }
+  }
+  a {
+    display: none;
+    position: relative;
+    bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    @include mobile {
+      display: flex;
+    }
+    img {
+      width: 30px;
+      animation: arrowBlink 2s infinite;
+    }
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0;
       }
     }
   }

@@ -36,24 +36,18 @@
     overflow: hidden;
 
     .img {
-      width: 700px;
-      height: 800px;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
       z-index: 1;
 
       img {
-        height: 95%;
+        height: 100%;
         z-index: 1;
         @include mobile {
-          height: 50%;
-          padding-bottom: 70%;
+          height: 100%;
         }
-        // @include tablet {
-        //   height: 70%;
-        //   padding-right: 30%;
-        // }
       }
     }
   }
@@ -118,7 +112,7 @@
   }
   a {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     left: 40%;
     z-index: 999;
     img {

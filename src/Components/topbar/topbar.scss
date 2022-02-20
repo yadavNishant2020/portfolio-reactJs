@@ -9,13 +9,19 @@
   top: 0;
   z-index: 3;
   transition: all 1s ease;
+  @include mobile {
+    height: 50px;
+    overflow: hidden;
+  }
 
   .wrappers {
     padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    @include mobile {
+      padding: 10px 20px;
+    }
     .lefts {
       display: flex;
       align-items: center;
@@ -26,6 +32,9 @@
         text-decoration: none;
         color: #679291;
         margin-right: 40px;
+        @include mobile {
+          font-size: 30px;
+        }
       }
 
       .itemContainers {

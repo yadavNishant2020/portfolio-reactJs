@@ -91,6 +91,7 @@ form .action input {
   outline: 0;
   padding: 0 20px 0 22px;
   margin-right: 10px;
+  color: white;
 }
 
 form .action input[type="submit"] {
@@ -103,7 +104,7 @@ form .full textarea:focus,
 form .action input[type="reset"]:hover,
 form .icons a:hover {
   background: rgba(255, 255, 255, 0.075);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 480px) {

@@ -4,19 +4,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../Background/skillback.jpg);
+  background-image: url(../Background/5570863.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
   p {
-    font-size: 45px;
     font-family: "Roboto", sans-serif;
     text-decoration: underline;
-    font-size: 55px;
+    font-size: 60px;
+    color: #679291;
+    text-decoration: underline;
     overflow: hidden;
-    padding-top: 1%;
     @include mobile {
-      font-size: 25px;
+      font-size: 22px;
+      font-weight: 600;
       padding-top: 10%;
     }
   }
@@ -36,7 +37,7 @@
   .items {
     width: 30%;
     height: 40%;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid lightgray;
 
     margin: 1.75% 1.5%;
@@ -52,7 +53,7 @@
       height: 180px;
       background-color: #91b3b8;
       video {
-        opacity: 0.1;
+        opacity: 0.2;
         z-index: 0;
       }
     }

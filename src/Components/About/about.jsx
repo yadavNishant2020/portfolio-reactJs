@@ -19,9 +19,11 @@ function about() {
           design/development since 2017. I enjoy creating beautifully designed,
           intuitive and functional websites.
         </p>
-
         <h2>-Nishant Singh Yadav</h2>
       </div>
+      <a href="#skill">
+        <img src="images/down.png" alt="" />
+      </a>
     </div>
   );
 }

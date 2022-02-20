@@ -13,7 +13,7 @@ function map() {
       <div className="map">
         <div className="location">
           <p className="heading">Here is me</p>
-          <p className="address">Malviya Nagar,New Delhi, India</p>
+          <p className="address">Malviya Nagar, New Delhi, India</p>
           <a
             href="https://www.google.com/maps/place/DDA+Flats,+Malviya+Nagar,+New+Delhi,+Delhi+110017/@28.5339367,77.2088898,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce21dd273638b:0xeac7b1918b30d0d9!8m2!3d28.5331376!4d77.2110547"
             target="_blank"
