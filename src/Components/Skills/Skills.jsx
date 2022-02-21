@@ -18,9 +18,6 @@ function Skills() {
           ))}
         </div>
       </div>
-      <a href="#portfolio">
-        <img src="images/down.png" alt="" />
-      </a>
     </div>
   );
 }

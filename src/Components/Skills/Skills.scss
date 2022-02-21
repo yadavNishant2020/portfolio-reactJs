@@ -1,6 +1,7 @@
 @import "../../global.scss";
 .skills {
   padding-right: 5%;
+  padding-top: 10%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -61,8 +62,10 @@
     margin-right: 2.5rem;
     overflow: hidden;
     @include mobile {
-      width: 100px;
+      width: 110px;
+      margin-top: 5px;
       margin-right: 0;
+      margin-bottom: 5px;
     }
   }
 
