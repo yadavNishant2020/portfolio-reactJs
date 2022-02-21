@@ -3,13 +3,16 @@
   background-color: #ffdee9;
   background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
   display: flex;
-
+  height: calc(100vh - 70px);
+  padding: 0px 20px;
   @include mobile {
     flex-direction: column;
     align-items: center;
+    padding: 0px 0px;
+    height: calc(100vh - 50px);
   }
   .txt {
-    font-size: 7.5rem;
+    font-size: 7.4rem;
     display: flex;
     color: #7cafad;
     display: flex;
@@ -55,8 +58,10 @@
 .right {
   flex: 0.5;
   position: relative;
+  margin-left: 10%;
   @include mobile {
     padding-bottom: 15%;
+    margin-left: 0%;
   }
   .name {
     display: flex;
@@ -114,7 +119,7 @@
     position: absolute;
     bottom: 30px;
     left: 40%;
-    z-index: 999;
+    z-index: 1;
     img {
       width: 30px;
       animation: arrowBlink 2s infinite;

@@ -2,6 +2,8 @@
 .about {
   background-color: white;
   display: flex;
+  height: calc(100vh - 70px);
+
   @include mobile {
     flex-direction: column;
     align-items: center;

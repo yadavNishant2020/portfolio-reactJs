@@ -7,7 +7,7 @@
   background-image: url(../Background/5570863.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
+  margin: 20px 0px;
   p {
     font-family: "Roboto", sans-serif;
     text-decoration: underline;
@@ -15,6 +15,7 @@
     color: #679291;
     text-decoration: underline;
     overflow: hidden;
+    padding-top: 5%;
     @include mobile {
       font-size: 22px;
       font-weight: 600;
