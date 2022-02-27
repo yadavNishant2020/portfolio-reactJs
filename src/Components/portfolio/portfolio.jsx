@@ -33,13 +33,13 @@ function portfolio() {
           </a>
         </div>
         <div className="items">
-          <video src="video/dice.mp4" autoPlay loop muted></video>
+          <video src="video/Text-styler.mp4" autoPlay loop muted></video>
           <a
-            href="https://tesla-66b35.web.app/"
+            href="https://text-styler-a3127.web.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Dice Game
+            Text Styler
           </a>
         </div>
         <div className="items">
