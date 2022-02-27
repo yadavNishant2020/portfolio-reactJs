@@ -27,13 +27,13 @@
       align-items: center;
 
       .logos {
-        font-size: 40px;
-        font-weight: 700;
-        text-decoration: none;
-        color: #679291;
-        margin-right: 40px;
+        img {
+          width: 170px;
+        }
         @include mobile {
-          font-size: 30px;
+          img {
+            width: 130px;
+          }
         }
       }
 

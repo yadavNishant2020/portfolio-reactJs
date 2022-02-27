@@ -22,6 +22,6 @@ export const skillList = [
   {
     skillName: "C++",
     skillUrl:
-      "https://user-images.githubusercontent.com/75436573/154819410-3d9cfac7-d529-4b4b-995e-69e3d7132804.gif",
+      "https://user-images.githubusercontent.com/75436573/155814897-16e50935-a6cc-4961-9df1-42eccd972197.svg",
   },
 ];

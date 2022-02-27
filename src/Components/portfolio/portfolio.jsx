@@ -7,6 +7,16 @@ function portfolio() {
 
       <div className="container">
         <div className="items">
+          <video src="video/sbs-casa.mp4" autoPlay loop muted></video>
+          <a
+            href="https://sbs-casa-hostel.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            SBS Casa Hostels
+          </a>
+        </div>
+        <div className="items">
           <video src="video/tesla.mp4" autoPlay loop muted></video>
           <a
             href="https://tesla-66b35.web.app/"
@@ -42,16 +52,6 @@ function portfolio() {
           <video src="video/pw.mp4" autoPlay loop muted></video>
           <a href="https://lnkd.in/eN_EpR3" target="_blank" rel="noreferrer">
             Portfolio Website
-          </a>
-        </div>
-        <div className="items">
-          <video src="video/tech.mp4" autoPlay loop muted></video>
-          <a
-            href="https://tesla-66b35.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Tech Website Design
           </a>
         </div>
       </div>
